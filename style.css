@@ -112,8 +112,6 @@ button {
     justify-content: space-between;
     align-items: center;
 }
-
-
 .check {
     margin: 0 10px;
 }
@@ -145,12 +143,10 @@ button {
 .invisible {
     display: none
 }
-
 .edit-mode .text-box {
     display: inline-block;
     width: 224px
 }
-
 .edit-mode label {
     display: none;
 }
