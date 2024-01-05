@@ -1,15 +1,15 @@
 /* Basic Style */
 li {
-    list-style:none;
+    list-style: none;
 }
 h3 {
-    list-style:none;
+    list-style: none;
 }
 input {
-    outline:none;
+    outline: none;
 }
 button {
-     outline:none;
+     outline: none;
 }
 .body-wrapper {
     background-color: #f8f8f8;
@@ -48,7 +48,7 @@ button {
     display: flex;
 }
 .list {
-    margin:0;
+    margin: 0;
     padding: 0px;
 }
 .button {
@@ -143,14 +143,14 @@ button {
 
 /* Edit Task */
 .invisible {
-    display:none
+    display: none
 }
 
 .edit-mode .text-box {
-    display:inline-block;
-    width:224px
+    display: inline-block;
+    width: 224px
 }
 
 .edit-mode label {
-    display:none;
+    display: none;
 }
