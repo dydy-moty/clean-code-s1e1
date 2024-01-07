@@ -37,11 +37,12 @@ var createNewTaskElement = function(taskString) {
     checkBox.type = "checkbox";
     checkBox.className = "check";
     editInput.type = "text";
-    editInput.classList.add("task", "text-box", "invisible");
+    editInput.classList.add("task", "text-box", "todo__list-task_disabled");
     editButton.innerText = "Edit"; //innerText encodes special characters, HTML does not.
     editButton.classList.add("edit", "button");
     deleteButton.classList.add("delete", "button");
     deleteButtonImg.src = './remove.svg';
+    deleteButtonImg.className = "todo__list-image";
     deleteButton.appendChild(deleteButtonImg);
 
     //and appending.
