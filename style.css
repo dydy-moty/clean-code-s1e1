@@ -110,7 +110,6 @@ button {
 .task:focus {
     color: #333;
 }
-
 /* New Task */
 .add-block__name {
     display: block;
@@ -119,13 +118,11 @@ button {
 #new-task {
     width: 318px;
 }
-
 /* Task list */
 .list-item {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -144,13 +141,11 @@ button {
 .todo__list-image:hover {
     transform: rotateZ(0);
 }
-
 /* Completed */
 #completed .task {
     text-decoration: line-through;
     color: #888;
 }
-
 /* Edit Task */
 .todo__list-task_disabled {
     display: none;
